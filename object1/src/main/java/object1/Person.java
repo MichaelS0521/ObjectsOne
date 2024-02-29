@@ -2,7 +2,7 @@ package object1;
 
 public class Person {
     String name;
-    int age = 0;
+    int age;
     int height; //centimeters
     public Person(String name, int age) {
         this.name = name;
